@@ -1,0 +1,838 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+    />
+    <title>Espaço Dream On</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="img/fotodreanon.png"
+    />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&family=Playfair+Display:wght@700;800&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="bg-white text-gray-800">
+    <header class="absolute top-0 left-0 right-0 z-10 p-4">
+      <div class="container mx-auto flex justify-between items-center">
+        <a href="#" title="Página Inicial">
+          <img
+            src="img/logo_espaco_dream_on.png"
+            alt="Logo Dream On"
+            class="h-32"
+          />
+        </a>
+        <nav class="hidden md:flex space-x-8 text-white font-semibold">
+          <a href="#servicos" class="hover:text-yellow-300 transition"
+            >Serviços</a
+          >
+          <a href="#galeria" class="hover:text-yellow-300 transition"
+            >Galeria</a
+          >
+          <a href="#depoimentos" class="hover:text-yellow-300 transition"
+            >Depoimentos</a
+          >
+          <a href="#faq" class="hover:text-yellow-300 transition">FAQ</a>
+          <a href="#contato" class="hover:text-yellow-300 transition"
+            >Contato</a
+          >
+          <a href="#localizacao" class="hover:text-yellow-300 transition"
+            >Localização</a
+          >
+        </nav>
+      </div>
+    </header>
+
+    <section class="hero-bg text-white">
+      <div class="max-w-3xl">
+        <div
+          class="inline-block bg-white/20 text-white text-sm px-4 py-1 rounded-full mb-4"
+        >
+          Eventos Inesquecíveis desde 2019
+        </div>
+        <h2
+          class="text-5xl md:text-7xl font-extrabold font-playfair leading-tight"
+        >
+          Dream On <span class="text-yellow-300">Salão de Festas</span>
+        </h2>
+        <p class="mt-4 text-lg md:text-xl max-w-2xl mx-auto">
+          O espaço perfeito para transformar seus sonhos em realidade.
+          Elegância, sofisticação e momentos inesquecíveis.
+        </p>
+        <div
+          class="mt-8 flex flex-col sm:flex-row justify-center items-center gap-4"
+        >
+          <a
+            href="#contato"
+            class="bg-yellow-400 text-gray-900 font-bold py-3 px-8 rounded-full text-lg hover:bg-yellow-300 transition-all transform hover:scale-105 w-full sm:w-auto flex items-center justify-center gap-2"
+          >
+            Agende seu Evento
+          </a>
+          <a
+            href="#servicos"
+            class="bg-gray-700/50 backdrop-blur-sm text-white font-bold py-3 px-8 rounded-full text-lg hover:bg-gray-600/50 transition-all w-full sm:w-auto"
+          >
+            Conhecer Serviços
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="servicos" class="py-20 bg-gray-50">
+      <div class="container mx-auto px-4 text-center">
+        <h2 class="text-3xl md:text-4xl font-bold mb-4">
+          Nossos <span class="text-yellow-500 font-playfair">Serviços</span>
+        </h2>
+        <p class="text-gray-600 max-w-2xl mx-auto mb-12">
+          Oferecemos o espaço perfeito para cada tipo de celebração, sempre com
+          excelência e atenção aos detalhes.
+        </p>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div
+            class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-shadow duration-300 transform hover:-translate-y-2"
+          >
+            <div
+              class="bg-pink-100 text-pink-500 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-6"
+            >
+              <i data-lucide="heart" class="w-8 h-8"></i>
+            </div>
+            <h3 class="text-2xl font-bold mb-3">Casamentos</h3>
+            <p class="text-gray-600">
+              Celebre o amor em um ambiente elegante e romântico, perfeito para
+              o dia mais especial.
+            </p>
+          </div>
+          <div
+            class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-shadow duration-300 transform hover:-translate-y-2"
+          >
+            <div
+              class="bg-purple-100 text-purple-500 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-6"
+            >
+              <i data-lucide="cake" class="w-8 h-8"></i>
+            </div>
+            <h3 class="text-2xl font-bold mb-3">Aniversários</h3>
+            <p class="text-gray-600">
+              Comemore a vida com estilo! Do primeiro aninho aos 100 anos, temos
+              o espaço ideal.
+            </p>
+          </div>
+          <div
+            class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-shadow duration-300 transform hover:-translate-y-2"
+          >
+            <div
+              class="bg-yellow-100 text-yellow-500 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-6"
+            >
+              <i data-lucide="star" class="w-8 h-8"></i>
+            </div>
+            <h3 class="text-2xl font-bold mb-3">Debutantes</h3>
+            <p class="text-gray-600">
+              Realize a festa de 15 anos dos sonhos em um salão sofisticado e
+              deslumbrante.
+            </p>
+          </div>
+          <div
+            class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-shadow duration-300 transform hover:-translate-y-2"
+          >
+            <div
+              class="bg-blue-100 text-blue-500 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-6"
+            >
+              <i data-lucide="briefcase" class="w-8 h-8"></i>
+            </div>
+            <h3 class="text-2xl font-bold mb-3">Eventos Corporativos</h3>
+            <p class="text-gray-600">
+              Reuniões e palestras em um ambiente profissional que inspira
+              sucesso.
+            </p>
+          </div>
+          <div
+            class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-shadow duration-300 transform hover:-translate-y-2"
+          >
+            <div
+              class="bg-green-100 text-green-500 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-6"
+            >
+              <i data-lucide="users" class="w-8 h-8"></i>
+            </div>
+            <h3 class="text-2xl font-bold mb-3">Eventos Sociais</h3>
+            <p class="text-gray-600">
+              Confraternizações e celebrações diversas com a estrutura que seu
+              evento merece.
+            </p>
+          </div>
+          <div
+            class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-shadow duration-300 transform hover:-translate-y-2"
+          >
+            <div
+              class="bg-red-100 text-red-500 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-6"
+            >
+              <i data-lucide="graduation-cap" class="w-8 h-8"></i>
+            </div>
+            <h3 class="text-2xl font-bold mb-3">Formaturas</h3>
+            <p class="text-gray-600">
+              Celebre sua conquista em grande estilo com uma festa de formatura
+              inesquecível.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="galeria" class="py-20">
+      <div class="container mx-auto px-4 text-center">
+        <h2 class="text-3xl md:text-4xl font-bold mb-4">
+          Nosso <span class="text-yellow-500 font-playfair">Espaço</span>
+        </h2>
+        <p class="text-gray-600 max-w-2xl mx-auto mb-12">
+          Conheça nosso salão elegante e versátil. Clique nas imagens para
+          ampliar.
+        </p>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+          <div class="grid gap-4">
+            <div>
+              <img
+                class="gallery-img h-auto max-w-full rounded-lg shadow-md hover:scale-105 transition-transform"
+                src="img/fotodefundo01.jpeg"
+                alt="Visão ampla do salão de festas Dream On com mesas redondas"
+              />
+            </div>
+            <div>
+              <img
+                class="gallery-img h-auto max-w-full rounded-lg shadow-md hover:scale-105 transition-transform"
+                src="img/fotosalao_03.jpg"
+                alt="Decoração de casamento no salão com mesa do bolo e cadeiras"
+              />
+            </div>
+          </div>
+          <div class="grid gap-4">
+            <div>
+              <img
+                class="gallery-img h-auto max-w-full rounded-lg shadow-md hover:scale-105 transition-transform"
+                src="img/fotosalao_04.jpg"
+                alt="Decoração de festa de debutante com tema rosa e balões"
+              />
+            </div>
+            <div>
+              <img
+                class="gallery-img h-auto max-w-full rounded-lg shadow-md hover:scale-105 transition-transform"
+                src="img/foto01.jpeg"
+                alt="Mesa de bolo de aniversário ricamente decorada"
+              />
+            </div>
+          </div>
+          <div class="grid gap-4">
+            <div>
+              <img
+                class="gallery-img h-auto max-w-full rounded-lg shadow-md hover:scale-105 transition-transform"
+                src="img/foto05.jpeg"
+                alt="Salão decorado para evento social com iluminação ambiente"
+              />
+            </div>
+            <div>
+              <img
+                class="gallery-img h-auto max-w-full rounded-lg shadow-md hover:scale-105 transition-transform"
+                src="img/fotosalao_06.jpg"
+                alt="Outro ângulo da festa de debutante com painel 'Sweet 16'"
+              />
+            </div>
+          </div>
+          <div class="grid gap-4">
+            <div>
+              <img
+                class="gallery-img h-auto max-w-full rounded-lg shadow-md hover:scale-105 transition-transform"
+                src="img/fotosalao_05.jpg"
+                alt="Detalhe da decoração de mesa com arranjo de flores"
+              />
+            </div>
+            <div>
+              <img
+                class="gallery-img h-auto max-w-full rounded-lg shadow-md hover:scale-105 transition-transform"
+                src="img/fotosalao_02.jpg"
+                alt="Vista do salão com mesas preparadas para os convidados"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="depoimentos" class="py-20 bg-gray-50">
+      <div class="container mx-auto px-4 text-center">
+        <h2 class="text-3xl md:text-4xl font-bold mb-4">
+          O que nossos
+          <span class="text-yellow-500 font-playfair">Clientes Dizem</span>
+        </h2>
+        <p class="text-gray-600 max-w-2xl mx-auto mb-12">
+          A satisfação de quem confia em nosso espaço é a nossa maior
+          recompensa.
+        </p>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div
+            class="bg-white p-8 rounded-2xl shadow-lg text-left transform hover:scale-105 transition-transform"
+          >
+            <div class="flex text-yellow-400 mb-4">
+              <i data-lucide="star" class="fill-current"></i
+              ><i data-lucide="star" class="fill-current"></i
+              ><i data-lucide="star" class="fill-current"></i
+              ><i data-lucide="star" class="fill-current"></i
+              ><i data-lucide="star" class="fill-current"></i>
+            </div>
+            <blockquote class="text-gray-600 italic">
+              "O casamento foi perfeito! O salão é lindo, espaçoso e a equipe
+              nos deu todo o suporte. Nossos convidados ficaram encantados com
+              cada detalhe. Recomendo de olhos fechados!"
+            </blockquote>
+            <p class="mt-4 font-bold text-gray-800">- Mariana e Lucas</p>
+            <p class="text-sm text-gray-500">Casamento</p>
+          </div>
+          <div
+            class="bg-white p-8 rounded-2xl shadow-lg text-left transform hover:scale-105 transition-transform"
+          >
+            <div class="flex text-yellow-400 mb-4">
+              <i data-lucide="star" class="fill-current"></i
+              ><i data-lucide="star" class="fill-current"></i
+              ><i data-lucide="star" class="fill-current"></i
+              ><i data-lucide="star" class="fill-current"></i
+              ><i data-lucide="star" class="fill-current"></i>
+            </div>
+            <blockquote class="text-gray-600 italic">
+              "Fizemos a festa de 15 anos da minha filha e foi um sonho! O
+              espaço é versátil e permitiu criar a decoração que ela sempre
+              quis. A estrutura é impecável, superou nossas expectativas."
+            </blockquote>
+            <p class="mt-4 font-bold text-gray-800">- Família Oliveira</p>
+            <p class="text-sm text-gray-500">Festa de Debutante</p>
+          </div>
+          <div
+            class="bg-white p-8 rounded-2xl shadow-lg text-left transform hover:scale-105 transition-transform"
+          >
+            <div class="flex text-yellow-400 mb-4">
+              <i data-lucide="star" class="fill-current"></i
+              ><i data-lucide="star" class="fill-current"></i
+              ><i data-lucide="star" class="fill-current"></i
+              ><i data-lucide="star" class="fill-current"></i
+              ><i data-lucide="star" class="fill-current"></i>
+            </div>
+            <blockquote class="text-gray-600 italic">
+              "Utilizamos o espaço para um evento corporativo e ficamos muito
+              satisfeitos. Ambiente climatizado, ótima estrutura de som e
+              imagem. Nossos colaboradores elogiaram a escolha."
+            </blockquote>
+            <p class="mt-4 font-bold text-gray-800">- Ricardo Almeida</p>
+            <p class="text-sm text-gray-500">Evento Corporativo</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="faq" class="py-20 bg-gray-50">
+      <div class="container mx-auto px-4">
+        <div class="text-center">
+          <h2 class="text-3xl md:text-4xl font-bold mb-4">
+            Perguntas
+            <span class="text-yellow-500 font-playfair">Frequentes</span>
+          </h2>
+          <p class="text-gray-600 max-w-2xl mx-auto mb-12">
+            Tire suas dúvidas mais comuns sobre nosso espaço e serviços.
+          </p>
+        </div>
+        <div class="max-w-3xl mx-auto space-y-4">
+          <div
+            class="faq-item bg-white border border-gray-200 rounded-xl overflow-hidden shadow-sm"
+          >
+            <div
+              class="faq-question flex justify-between items-center p-6 cursor-pointer hover:bg-gray-50"
+            >
+              <h3 class="font-semibold text-lg text-gray-800">
+                Qual a capacidade e a duração da festa?
+              </h3>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="faq-icon lucide lucide-plus"
+              >
+                <path d="M5 12h14" />
+                <path d="M12 5v14" />
+              </svg>
+            </div>
+            <div class="faq-answer px-6 bg-white text-gray-700">
+              <p>
+                Nosso salão tem capacidade para até 120 pessoas
+                confortavelmente. O período padrão de locação é de 5 horas de
+                festa.
+              </p>
+            </div>
+          </div>
+          <div
+            class="faq-item bg-white border border-gray-200 rounded-xl overflow-hidden shadow-sm"
+          >
+            <div
+              class="faq-question flex justify-between items-center p-6 cursor-pointer hover:bg-gray-50"
+            >
+              <h3 class="font-semibold text-lg text-gray-800">
+                O que está incluso na locação do espaço?
+              </h3>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="faq-icon lucide lucide-plus"
+              >
+                <path d="M5 12h14" />
+                <path d="M12 5v14" />
+              </svg>
+            </div>
+            <div class="faq-answer px-6 bg-white text-gray-700">
+              <p>
+                A locação inclui toda a estrutura para sua festa: 15 mesas, 120
+                cadeiras, uma mesa grande para o buffet (3,50m x 1,00m),
+                projetor com telão, climatizador, Wi-Fi e a utilização da nossa
+                cozinha completa.
+              </p>
+            </div>
+          </div>
+          <div
+            class="faq-item bg-white border border-gray-200 rounded-xl overflow-hidden shadow-sm"
+          >
+            <div
+              class="faq-question flex justify-between items-center p-6 cursor-pointer hover:bg-gray-50"
+            >
+              <h3 class="font-semibold text-lg text-gray-800">
+                Como é a estrutura da cozinha?
+              </h3>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="faq-icon lucide lucide-plus"
+              >
+                <path d="M5 12h14" />
+                <path d="M12 5v14" />
+              </svg>
+            </div>
+            <div class="faq-answer px-6 bg-white text-gray-700">
+              <p>
+                Oferecemos uma cozinha industrial equipada com forno, fogão com
+                coifa e exaustor, geladeira, gás encanado, churrasqueira e uma
+                tomada específica que suporta até duas fritadeiras elétricas
+                simultaneamente.
+              </p>
+            </div>
+          </div>
+          <div
+            class="faq-item bg-white border border-gray-200 rounded-xl overflow-hidden shadow-sm"
+          >
+            <div
+              class="faq-question flex justify-between items-center p-6 cursor-pointer hover:bg-gray-50"
+            >
+              <h3 class="font-semibold text-lg text-gray-800">
+                O salão é acessível para cadeirantes?
+              </h3>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="faq-icon lucide lucide-plus"
+              >
+                <path d="M5 12h14" />
+                <path d="M12 5v14" />
+              </svg>
+            </div>
+            <div class="faq-answer px-6 bg-white text-gray-700">
+              <p>
+                Sim! Nosso espaço foi projetado para ser acolhedor para todos,
+                com fácil acesso para cadeirantes tanto na entrada principal
+                quanto nos banheiros.
+              </p>
+            </div>
+          </div>
+          <div
+            class="faq-item bg-white border border-gray-200 rounded-xl overflow-hidden shadow-sm"
+          >
+            <div
+              class="faq-question flex justify-between items-center p-6 cursor-pointer hover:bg-gray-50"
+            >
+              <h3 class="font-semibold text-lg text-gray-800">
+                O espaço é climatizado e seguro?
+              </h3>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="faq-icon lucide lucide-plus"
+              >
+                <path d="M5 12h14" />
+                <path d="M12 5v14" />
+              </svg>
+            </div>
+            <div class="faq-answer px-6 bg-white text-gray-700">
+              <p>
+                Com certeza. O salão é totalmente climatizado para o conforto
+                dos seus convidados e possuímos o AVCB (Auto de Vistoria do
+                Corpo de Bombeiros), garantindo que todas as normas de segurança
+                são seguidas.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contato" class="py-20 bg-gray-50">
+      <div class="container mx-auto px-4">
+        <div class="text-center">
+          <h2 class="text-3xl md:text-4xl font-bold mb-4">
+            Agende seu <span class="text-yellow-500 font-playfair">Evento</span>
+          </h2>
+          <p class="text-gray-600 max-w-2xl mx-auto mb-12">
+            Preencha o formulário e entraremos em contato via WhatsApp para
+            confirmar sua data.
+          </p>
+        </div>
+        <div
+          class="max-w-2xl mx-auto bg-white p-8 sm:p-12 rounded-2xl shadow-2xl"
+        >
+          <form id="agendamentoForm">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div>
+                <label
+                  for="nome"
+                  class="block text-sm font-medium text-gray-700 mb-1"
+                  >Nome Completo *</label
+                >
+                <input
+                  type="text"
+                  id="nome"
+                  name="nome"
+                  required
+                  class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-yellow-500 focus:border-yellow-500"
+                />
+              </div>
+              <div>
+                <label
+                  for="telefone"
+                  class="block text-sm font-medium text-gray-700 mb-1"
+                  >Telefone *</label
+                >
+                <input
+                  type="tel"
+                  id="telefone"
+                  name="telefone"
+                  required
+                  class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-yellow-500 focus:border-yellow-500"
+                  placeholder="(19) 99999-9999"
+                />
+              </div>
+            </div>
+            <div class="mt-6">
+              <label
+                for="email"
+                class="block text-sm font-medium text-gray-700 mb-1"
+                >Email</label
+              >
+              <input
+                type="email"
+                id="email"
+                name="email"
+                class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-yellow-500 focus:border-yellow-500"
+                placeholder="seu@email.com"
+              />
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
+              <div>
+                <label
+                  for="tipoEvento"
+                  class="block text-sm font-medium text-gray-700 mb-1"
+                  >Tipo de Evento *</label
+                >
+                <select
+                  id="tipoEvento"
+                  name="tipoEvento"
+                  required
+                  class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-yellow-500 focus:border-yellow-500"
+                >
+                  <option>Casamento</option>
+                  <option>Aniversário</option>
+                  <option>Debutante</option>
+                  <option>Evento Social</option>
+                  <option>Evento Corporativo</option>
+                  <option>Formatura</option>
+                  <option>Outro</option>
+                </select>
+              </div>
+              <div>
+                <label
+                  for="data"
+                  class="block text-sm font-medium text-gray-700 mb-1"
+                  >Data Desejada *</label
+                >
+                <input
+                  type="date"
+                  id="data"
+                  name="data"
+                  required
+                  class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-yellow-500 focus:border-yellow-500"
+                />
+              </div>
+            </div>
+            <div class="mt-6">
+              <label
+                for="convidados"
+                class="block text-sm font-medium text-gray-700 mb-1"
+                >Número de Convidados</label
+              >
+              <input
+                type="number"
+                id="convidados"
+                name="convidados"
+                class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-yellow-500 focus:border-yellow-500"
+                placeholder="Ex: 100"
+              />
+            </div>
+            <div class="mt-6">
+              <label
+                for="mensagem"
+                class="block text-sm font-medium text-gray-700 mb-1"
+                >Mensagem Adicional</label
+              >
+              <textarea
+                id="mensagem"
+                name="mensagem"
+                rows="4"
+                class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-yellow-500 focus:border-yellow-500"
+                placeholder="Conte-nos mais sobre seu evento..."
+              ></textarea>
+            </div>
+            <div class="mt-8 text-center">
+              <button
+                type="submit"
+                id="submitButton"
+                class="bg-yellow-400 text-gray-900 font-bold py-3 px-10 rounded-full text-lg hover:bg-yellow-300 transition-all transform hover:scale-105 w-full sm:w-auto"
+              >
+                Solicitar Agendamento
+              </button>
+            </div>
+          </form>
+
+          <div
+            id="successMessage"
+            class="hidden mt-6 text-center bg-green-100 border border-green-400 text-green-700 px-4 py-3 rounded-lg relative"
+          >
+            <strong class="font-bold">Obrigado!</strong>
+            <span class="block sm:inline"
+              >Sua mensagem foi preparada. Você será redirecionado para o
+              WhatsApp.</span
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="localizacao" class="pt-20 pb-10 bg-gray-50">
+      <div class="container mx-auto px-4">
+        <div class="text-center">
+          <h2 class="text-3xl md:text-4xl font-bold mb-4">
+            Nossa <span class="text-yellow-500 font-playfair">Localização</span>
+          </h2>
+          <p class="text-gray-600 max-w-2xl mx-auto mb-12">
+            Estamos em uma localização privilegiada em Araras, de fácil acesso
+            para você e seus convidados.
+          </p>
+        </div>
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+          <div class="h-96 lg:h-full rounded-2xl overflow-hidden shadow-2xl">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3691.0183187127623!2d-47.36740172470291!3d-22.336691979667793!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c8776347ba1c6f%3A0x5a6c069c286628d6!2sEspa%C3%A7o%20Dream%20On%20Eventos!5e0!3m2!1spt-BR!2sbr!4v1728685419401!5m2!1spt-BR!2sbr"
+              width="100%"
+              height="100%"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+          <div class="space-y-6">
+            <div
+              class="bg-white p-6 rounded-2xl shadow-lg flex items-start gap-4"
+            >
+              <div class="bg-yellow-100 text-yellow-600 p-3 rounded-full">
+                <i data-lucide="map-pin"></i>
+              </div>
+              <div>
+                <h3 class="font-bold text-lg">Endereço</h3>
+                <p class="text-gray-600">
+                  Av. Henrique Volpe, 47<br />Jardim Campos Verdes, Araras -
+                  SP<br />CEP: 13604-536
+                </p>
+              </div>
+            </div>
+            <div
+              class="bg-white p-6 rounded-2xl shadow-lg flex items-start gap-4"
+            >
+              <div class="bg-yellow-100 text-yellow-600 p-3 rounded-full">
+                <i data-lucide="phone"></i>
+              </div>
+              <div>
+                <h3 class="font-bold text-lg">Telefone</h3>
+                <p class="text-gray-600">(19) 99333-9597</p>
+              </div>
+            </div>
+            <div
+              class="bg-white p-6 rounded-2xl shadow-lg flex items-start gap-4"
+            >
+              <div class="bg-yellow-100 text-yellow-600 p-3 rounded-full">
+                <i data-lucide="mail"></i>
+              </div>
+              <div>
+                <h3 class="font-bold text-lg">Email</h3>
+                <p class="text-gray-600 break-all">
+                  studioandersonfilmagem@hotmail.com
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-[rgb(29,29,29)] text-white py-12">
+      <div class="container mx-auto px-4 text-center">
+        <img
+          src="img/logo_espaco_dream_on.png"
+          alt="Logo Dream On"
+          class="h-24 mx-auto mb-4"
+        />
+        <p class="max-w-xl mx-auto text-gray-400 mb-6">
+          Transformando seus sonhos em realidade com elegância e sofisticação.
+        </p>
+
+        <div class="flex justify-center items-center gap-6 mb-8">
+          <a
+            href="https://wa.me/5519993339597"
+            target="_blank"
+            class="text-gray-400 hover:text-yellow-300 transition-colors"
+            title="WhatsApp"
+          >
+            <svg
+              class="w-7 h-7"
+              fill="currentColor"
+              viewBox="0 0 16 16"
+              aria-hidden="true"
+            >
+              <path
+                d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"
+              />
+            </svg>
+          </a>
+          <a
+            href="https://www.instagram.com/espacodreamon/"
+            target="_blank"
+            class="text-gray-400 hover:text-yellow-300 transition-colors"
+            title="Instagram"
+          >
+            <svg
+              class="w-7 h-7"
+              fill="currentColor"
+              viewBox="0 0 448 512"
+              aria-hidden="true"
+            >
+              <path
+                d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"
+              />
+            </svg>
+          </a>
+          <a
+            href="https://www.facebook.com/espacodreamon?rdid=g6e9vHlyzPXzM2P4&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F19bBMPJjiF%2F#"
+            target="_blank"
+            class="text-gray-400 hover:text-yellow-300 transition-colors"
+            title="Facebook"
+          >
+            <svg
+              class="w-7 h-7"
+              fill="currentColor"
+              viewBox="0 0 512 512"
+              aria-hidden="true"
+            >
+              <path
+                d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"
+              />
+            </svg>
+          </a>
+        </div>
+
+        <p class="text-sm text-gray-500">
+          © <span id="currentYear"></span> Dream On Salão de Festas. Todos os
+          direitos reservados.
+        </p>
+      </div>
+    </footer>
+
+    <div
+      id="galleryModal"
+      class="hidden fixed inset-0 bg-black bg-opacity-80 z-50 flex items-center justify-center p-4"
+    >
+      <div class="relative">
+        <button
+          id="closeModal"
+          class="absolute -top-10 right-0 text-white text-3xl font-bold"
+        >
+          ×
+        </button>
+        <img
+          id="modalImage"
+          src=""
+          alt="Imagem da galeria ampliada"
+          class="max-w-[90vw] max-h-[90vh] rounded-lg"
+        />
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+      lucide.createIcons();
+    </script>
+  </body>
+</html>

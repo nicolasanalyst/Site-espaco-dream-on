@@ -1,0 +1,72 @@
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.font-playfair {
+  font-family: "Playfair Display", serif;
+}
+
+
+/* A resposta começa oculta e com altura máxima de 0 */
+.faq-answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease-in-out, padding 0.5s ease-in-out;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+/* Quando o item está ativo, a resposta se expande */
+.faq-item.active .faq-answer {
+  /* Uma altura máxima grande o suficiente para caber o conteúdo */
+  max-height: 200px;
+  padding-top: 1.5rem; /* 24px */
+  padding-bottom: 1.5rem; /* 24px */
+}
+
+/* O ícone gira 45 graus quando o item está ativo, transformando "+" em "x" */
+.faq-item.active .faq-icon {
+  transform: rotate(45deg);
+}
+
+/* Adiciona uma transição suave para a rotação do ícone */
+.faq-icon {
+  transition: transform 0.3s ease-in-out;
+}
+
+.gallery-img {
+  cursor: pointer;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.hero-bg {
+  width: 100%;
+  box-sizing: border-box;
+
+  height: 100vh;
+  height: 100svh;
+
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("img/fotosalao_01.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-attachment: scroll;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: env(safe-area-inset-top);
+  padding-bottom: env(safe-area-inset-bottom);
+}
