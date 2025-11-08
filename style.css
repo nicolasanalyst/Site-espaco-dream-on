@@ -6,8 +6,6 @@ body {
   font-family: "Playfair Display", serif;
 }
 
-
-/* A resposta começa oculta e com altura máxima de 0 */
 .faq-answer {
   max-height: 0;
   overflow: hidden;
@@ -16,20 +14,17 @@ body {
   padding-bottom: 0;
 }
 
-/* Quando o item está ativo, a resposta se expande */
 .faq-item.active .faq-answer {
-  /* Uma altura máxima grande o suficiente para caber o conteúdo */
+  
   max-height: 200px;
-  padding-top: 1.5rem; /* 24px */
-  padding-bottom: 1.5rem; /* 24px */
+  padding-top: 1.5rem; 
+  padding-bottom: 1.5rem; 
 }
 
-/* O ícone gira 45 graus quando o item está ativo, transformando "+" em "x" */
 .faq-item.active .faq-icon {
   transform: rotate(45deg);
 }
 
-/* Adiciona uma transição suave para a rotação do ícone */
 .faq-icon {
   transition: transform 0.3s ease-in-out;
 }
